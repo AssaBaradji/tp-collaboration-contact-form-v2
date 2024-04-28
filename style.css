@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("imageformulaire.jpeg"); 
+    background-size: cover;
+}
+
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+form h1{
+    font-size: 20px;
+}
+form .separation{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps-formulaire .groupe{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form  .corps-formulaire .gauche .groupe .input{
+    margin-top: 50px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid palevioletred;
+    outline-color: blue;
+}
+form .corps-formulaire .droite{
+    margin-left: 40px;
+    padding-top: 10px;
+
+}
+form .corps-formulaire .droite .groupe{
+    height: 100%;
+}
+.pied formulaire {
+width: 10px;
+padding: 20px;
+}
